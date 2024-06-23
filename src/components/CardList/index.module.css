@@ -1,0 +1,31 @@
+
+.pageContainer{
+display: flex;
+flex-wrap: wrap;
+padding: 20px 20px;
+justify-content: space-between;
+background-color: black;
+gap: 20px;
+}
+
+.pageContainer img {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px white;
+}
+    
